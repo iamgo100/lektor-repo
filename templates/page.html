@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block header %}{{ this.header }}{%endblock%}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2>{{ this.title2 }}</h2>
+  {{ this.body }}
+{% endblock %}
+{% block author %}
+{{ this.author }}
+{% endblock %}
